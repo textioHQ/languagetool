@@ -16701,7 +16701,7 @@ USA
                 <pattern>
                     <marker>
                         <token postag="DT" inflected="yes" regexp="yes">a|the</token>
-                        <token>this</token>
+                        <token regexp="yes">this|that|these|those|my|your|his|her|its|our|their|whose</token>
                     </marker>
                     <token><exception regexp="yes">'|\.</exception></token>
                 </pattern>
